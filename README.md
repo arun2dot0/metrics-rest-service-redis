@@ -8,10 +8,12 @@ Get publish and subscribe keys from pubnub.com
 and setup in pubnub.MessagingService.java
 
 install and setup redis
-
 Code assumes local setup , if different update in beans.xml
 
 #How to use
+
+mvn spring-boot:run 
+or just run MetricaApplication
 
 PubNub message is sent on call to 
 PUT
