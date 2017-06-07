@@ -29,7 +29,7 @@ Alexa Trigger - https://github.com/arun2dot0/AlexaNodeJS
 RasberryPi + GrovePi Code - https://github.com/arun2dot0/PubNubPython
 
 #Demo
-![Imgur](http://i.imgur.com/MzQa5Rs)
+[Imgur](http://i.imgur.com/CbwxkHh.gifv)
 
 Code assumes local setup , if different update in beans.xml
 
