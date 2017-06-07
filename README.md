@@ -1,4 +1,4 @@
-# metrics-rest-service
+## metrics-rest-service
 
 Metrics rest service used to integrate with PubNub
 
@@ -8,7 +8,22 @@ Get publish and subscribe keys from pubnub.com
 and setup in pubnub.MessagingService.java
 
 install and setup redis
+--Redis commands for gcloud
+sudo yum update
+
+
+sudo yum install epel-release
+sudo yum update
+
+sudo yum install redis
+
+sudo systemctl start redis
+sudo systemctl enable redis
+
+redis-cli ping
+
 Code assumes local setup , if different update in beans.xml
+
 
 #How to use
 
