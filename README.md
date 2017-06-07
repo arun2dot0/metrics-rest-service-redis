@@ -35,7 +35,7 @@ RasberryPi + GrovePi Code - https://github.com/arun2dot0/PubNubPython
 #Demo
 
 
-![alt text](http://i.imgur.com/CbwxkHh.gifv)
+[Imgur](http://i.imgur.com/CbwxkHh.gifv)
 
 
 
