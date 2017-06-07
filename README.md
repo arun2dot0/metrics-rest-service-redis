@@ -8,7 +8,8 @@ Get publish and subscribe keys from pubnub.com
 and setup in pubnub.MessagingService.java
 
 install and setup redis
---Redis commands for gcloud
+
+#Redis commands for gcloud
 sudo yum update
 
 
@@ -21,6 +22,14 @@ sudo systemctl start redis
 sudo systemctl enable redis
 
 redis-cli ping
+
+
+#Related projects
+Alexa Trigger - https://github.com/arun2dot0/AlexaNodeJS
+RasberryPi + GrovePi Code - https://github.com/arun2dot0/PubNubPython
+
+#Demo
+![Imgur](http://imgur.com/MzQa5Rs)
 
 Code assumes local setup , if different update in beans.xml
 
