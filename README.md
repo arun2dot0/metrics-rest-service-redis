@@ -8,6 +8,8 @@ Get publish and subscribe keys from pubnub.com
 and setup in pubnub.MessagingService.java
 
 install and setup redis
+Code assumes local setup , if different update in beans.xml
+
 
 #Redis commands for gcloud
 sudo yum update
@@ -28,10 +30,13 @@ redis-cli ping
 Alexa Trigger - https://github.com/arun2dot0/AlexaNodeJS
 RasberryPi + GrovePi Code - https://github.com/arun2dot0/PubNubPython
 
+
+
 #Demo
+
+
 [Imgur](http://i.imgur.com/CbwxkHh.gifv)
 
-Code assumes local setup , if different update in beans.xml
 
 
 #How to use
