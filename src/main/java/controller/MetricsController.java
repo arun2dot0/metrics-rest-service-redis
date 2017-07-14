@@ -56,15 +56,7 @@ public class MetricsController {
 	 
 
 	 	 
-	 @GetMapping("/testmetrics")
-	 public  @ResponseBody Metric getTestMetrics(  ) {
-		 return new Metric(66,22,150,500);
-	 }
-	 	
-	 @GetMapping("/temp")
-	 public  @ResponseBody String getCurrentTemp(  ) {
-		return  "Current Temperature is 66 degree Celcuius";
-	 }
+	
 	 
 	 @PutMapping("/light")
 	 public  @ResponseBody String lighton( @RequestParam(value="opt", required=false, defaultValue="off") String opt ) {
@@ -72,6 +64,11 @@ public class MetricsController {
 		 return  "Light is turned "+ opt;
 	 }
 	 
+	 @PutMapping("/camera")
+	 public  @ResponseBody String cameraOperation( @RequestParam(value="opt", required=false, defaultValue="take") String opt ) {
+		 messagingService.sendMessage(opt);
+		 return  "Message sent to Take Picture and sent to your email.. ";
+	 }
 	
     
 

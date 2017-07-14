@@ -20,8 +20,8 @@ public class MessagingService {
 	public void init() {
 		PNConfiguration pnConfiguration = new PNConfiguration();
 
-		pnConfiguration.setSubscribeKey("pubnub-subscribekey");
-		pnConfiguration.setPublishKey("pubnub-publishkeykey");
+		pnConfiguration.setSubscribeKey("sub-c-5c3f5f40-4190-11e7-86e2-02ee2ddab7fe");
+		pnConfiguration.setPublishKey("pub-c-5100138b-1286-477b-836e-55f23e3b0f8c");
 		//GET publish subscribe key from pubnub.com
 		pubnub = new PubNub(pnConfiguration);
 	}
